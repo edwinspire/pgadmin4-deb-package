@@ -1,0 +1,9 @@
+Package: pgAdmin4
+Version: 2.0.RC2
+Architecture: all
+Maintainer: edwinspire <edwinspire@gmail.com>
+Section: editors
+Priority: optional
+Depends: virtualenv, python-pip, libpq-dev, python-dev
+Description: pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world
+
