@@ -1,0 +1,8 @@
+#!/bin/sh
+# postinst script for webpy-example
+#
+virtualenv /opt/pgadmin4
+cd /opt/pgadmin4 
+source /opt/pgadmin4/bin/activate
+pip install /opt/pgadmin4/pgadmin4-2.0rc2-py2.py3-none-any.whl
+

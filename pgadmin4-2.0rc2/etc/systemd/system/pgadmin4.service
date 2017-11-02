@@ -1,0 +1,13 @@
+[Unit]
+Description=pgAdmin4
+
+[Service]
+ExecStart=/opt/pgadmin4/pgadmin4.sh
+Restart=always
+User=root
+Group=root
+Environment=PATH=/usr/bin:/usr/local/bin
+WorkingDirectory=/opt/pgadmin4
+
+[Install]
+WantedBy=multi-user.target
